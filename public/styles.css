@@ -100,8 +100,10 @@ dd dl .term {
   color: #dcdcdc;
   font-size: large;
 }
+/* scrollbar */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 18px;
+  height: 5px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #fff;

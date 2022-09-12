@@ -4,12 +4,14 @@ import emojipedia from "../emojipedia";
 
 function createEmojiCard(emojis) {
   return (
-    <Entry
-      id={emojis.id}
-      emoji={emojis.emoji}
-      name={emojis.name}
-      meaning={emojis.meaning}
-    />
+    <dl className="dictionary">
+      <Entry
+        key={emojis.id}
+        emoji={emojis.emoji}
+        name={emojis.name}
+        meaning={emojis.meaning}
+      />
+    </dl>
   );
 }
 

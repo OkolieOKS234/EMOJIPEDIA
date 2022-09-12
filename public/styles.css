@@ -28,6 +28,12 @@ h1 span {
   max-width: 90%;
 }
 
+.dictionary_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .dictionary > .term {
   text-align: center;
   max-width: 20rem;
@@ -93,4 +99,11 @@ dd dl .term {
 ::placeholder {
   color: #dcdcdc;
   font-size: large;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
 }
